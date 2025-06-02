@@ -1,8 +1,11 @@
-const captchaBlock = document.getElementById('captchaBlock')
+document.addEventListener("DOMContentLoaded", () => {
+    const captchaBlock = document.getElementById('captchaBlock')
 
-if(!captchaBlock){
-    window.location.reload()
+    if (!captchaBlock) {
+        window.location.reload()
+    }
+    else {
+        console.log("Hello world!")
+    }
 }
-else{
-    console.log("Hello world!")
-}
+)
