@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Vtop Captcha Solver",
+  "version": "1.0",
+  "description": "Auto fill captcha of VTOP and login",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://vtop.vitap.ac.in/vtop/login"
+      ]
+    }
+  ]
+}
