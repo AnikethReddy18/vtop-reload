@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Vtop Captcha Solver",
+  "name": "Vtop Reloader",
   "version": "1.0",
-  "description": "Auto fill captcha of VTOP and login",
+  "description": "Auto reload until captcha block works",
   "content_scripts": [
     {
       "js": ["content.js"],
